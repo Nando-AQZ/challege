@@ -103,7 +103,7 @@ function limpiar() {
 //funcion copiar del texto salida
 
 function copiarText(){
-let texto = document.getElementById("salida").innerText;
+let texto = document.getElementById("salida").value;
 navigator.clipboard.writeText(texto).then(()=> {   
     swal({
         title: "Copiado",
