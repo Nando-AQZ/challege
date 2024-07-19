@@ -408,7 +408,7 @@ body{
     }
     
 }
-@media (max-height: 702px) {
+@media (max-height: 762px) {
     body {
         height: 180vh; /* Ajusta la altura del cuerpo según sea necesario */       
     }
