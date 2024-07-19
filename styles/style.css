@@ -402,13 +402,13 @@ body{
 }
 
 
-@media (max-height: 798px) {
+@media (max-height: 798px) and (max-width: 500px) {
     body {
         height: 150vh; /* Ajusta la altura del cuerpo según sea necesario */
     }
     
 }
-@media (max-height: 762px) {
+@media (max-height: 762px) and (max-width: 400px){
     body {
         height: 180vh; /* Ajusta la altura del cuerpo según sea necesario */       
     }
