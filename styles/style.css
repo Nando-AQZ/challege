@@ -412,12 +412,5 @@ body{
     body {
         height: 180vh; /* Ajusta la altura del cuerpo según sea necesario */       
     }
-    .contenedor_texto_salida{
-        font-size: 1.025rem;
-    }
-    .texto-resultado{
-        font-size: 0.825rem;
-        overflow: hidden;
-        /*word-break:break-all;*/
-    }
+    
 }
