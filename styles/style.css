@@ -362,6 +362,9 @@ body{
         align-items: center;
         width: 100%;
     }
+    .contenedor_texto_entrada{
+        font-size: 2rem;
+    }
     .footer{
         
         padding: 10px;
@@ -370,7 +373,9 @@ body{
     .contenedor_texto_salida{
         height: 60vh;
     }
-    
+    .texto-resultado{
+        font-size: 2.3rem;
+    }
 } 
 
 @media(max-width: 438px){
@@ -411,6 +416,10 @@ body{
 @media (max-height: 762px) and (max-width: 400px){
     body {
         height: 180vh; /* Ajusta la altura del cuerpo según sea necesario */       
+        background-image: url(img-body/img-body4.jpg);
     }
+    .texto-resultado{
+        font-size: 1.7rem;
     
+    }
 }
