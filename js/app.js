@@ -1,4 +1,29 @@
 
+document.getElementById('textoEntrada').addEventListener('input', function() {
+    var textoEntrada = this.value;
+    
+    if (textoEntrada.trim() === '') {
+        document.getElementById('boton3').style.display='none';      
+    // Muestra el elemento flotante
+    document.getElementById('salida').innerText= '';
+    document.getElementById('mensaje').innerText= '';
+    var flotantexElemento = document.getElementById('img');
+        if (flotantexElemento && flotantexElemento.style.display !== 'block') {
+            flotantexElemento.style.display = 'block';
+        }
+    var flotantexElemento1 = document.getElementById('advertencia');
+        if (flotantexElemento1 && flotantexElemento1.style.display !== 'block') {
+            flotantexElemento1.style.display = 'block';
+        }
+    var flotantexElemento2 = document.getElementById('advertencia2');
+        if (flotantexElemento2 && flotantexElemento2.style.display !== 'block') {
+            flotantexElemento2.style.display = 'block';
+        } // Borrar el contenido del segundo textarea
+        // Limpia el valor del campo de entrada de texto
+    
+    }
+});
+
 function validarTexto(texto){
     const regex = /^[a-zñ\s]+$/; // solo letras minusculas y espacios
     return regex.test(texto);
